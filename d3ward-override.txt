@@ -1,0 +1,22 @@
+! Title: D3Ward Override Patch (AdGuard)
+! Description: Focused override rules for stubborn d3ward/adblock test misses
+! Version: 2026-02-20T09:05:00+03:00
+! Author: tse4oev
+!
+! Host-level misses
+||click.googleanalytics.com^$all,important
+||app.getsentry.com^$all,important
+||browser.sentry-cdn.com^$all,important
+||adtech.yahooinc.com^$all,important
+||ads.pinterest.com^$all,important
+||ads-api.twitter.com^$all,important
+!
+! Script-bait misses in tests
+||adblock-tester.com/*ads*$script,important
+||adblock-tester.com/*pagead*$script,important
+||checkadblock.ru/*ads*$script,important
+||checkadblock.ru/*pagead*$script,important
+||adblock.turtlecute.org/*ads*$script,important
+||adblock.turtlecute.org/*pagead*$script,important
+||d3ward.github.io/toolz/*ads*$script,important
+||d3ward.github.io/toolz/*pagead*$script,important

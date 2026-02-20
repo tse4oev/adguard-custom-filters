@@ -14,3 +14,9 @@ https://raw.githubusercontent.com/tse4oev/adguard-custom-filters/refs/heads/mast
 4. Paste the Raw URL above.
 
 
+
+## D3Ward override URL
+
+https://raw.githubusercontent.com/tse4oev/adguard-custom-filters/refs/heads/master/d3ward-override.txt
+
+Use this as a second custom filter if d3ward test still shows misses.
