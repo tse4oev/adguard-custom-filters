@@ -4,7 +4,7 @@ This repository hosts a custom AdGuard-compatible blocklist.
 
 ## Direct Raw URL
 
-https://raw.githubusercontent.com/tse4oev/adguard-custom-filters/master/adguard-filter.txt
+https://raw.githubusercontent.com/tse4oev/adguard-custom-filters/refs/heads/master/adguard-filter.txt
 
 ## How to use in AdGuard browser extension
 
@@ -12,4 +12,5 @@ https://raw.githubusercontent.com/tse4oev/adguard-custom-filters/master/adguard-
 2. Go to Custom filters.
 3. Add new custom filter by URL.
 4. Paste the Raw URL above.
+
 
